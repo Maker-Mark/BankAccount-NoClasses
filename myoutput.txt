@@ -1,0 +1,525 @@
+NAME:Mark Goldstein
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $3000.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6000.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Balance Inquiry
+Account Number: 100001
+Current Balance: $100.00
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $3000.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6000.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Balance Inquiry
+Error: Account number 123342 does not exist.
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $3000.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6000.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Deposit
+Account Number: 100006
+Old Balance: $6000.00
+Amount to Deposit: $199.0
+New Balance: $6199.00
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $3000.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Deposit
+Account Number: 100007
+Error: $-10.00 is an invalid amount
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $3000.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Deposit
+Error: Account number entered invalid!
+Account numbers must be a 6-digit integer 
+between 100000 and 999999.
+
+Transaction Requested: Deposit
+Error: Account number 123 does not exist.
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $3000.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Withdrawal
+Account Number: 100003
+Old Balance: $3000.00
+Amount to Withdrawal: $10.0
+New Balance: $2990.00
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Withdrawal
+Account Number: 100001
+Error: $-123.00 is an invalid amount
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Withdrawal
+Account Number: 100001
+Error: Insufficient funds
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Withdrawal
+Error: Account number entered invalid!
+Account numbers must be a 6-digit integer 
+between 100000 and 999999.
+
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+
+Transaction Requested: Create New Account
+New Account with account number 111111 created.
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $   0.00
+
+Transaction Requested: Create New Account
+New Account with account number 222222 created.
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $   0.00
+ 222222  $   0.00
+
+Transaction Requested: Create New Account
+New Account with account number 333333 created.
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $   0.00
+ 222222  $   0.00
+ 333333  $   0.00
+
+Transaction Requested: New Account
+Error: Account number entered invalid!
+Account numbers must be a 6-digit integer 
+between 100000 and 999999.
+
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $   0.00
+ 222222  $   0.00
+ 333333  $   0.00
+
+Error: g is an invalid selection -  try again
+
+Transaction Requested: Deposit
+Account Number: 111111
+Old Balance: $0.00
+Amount to Deposit: $75.55
+New Balance: $75.55
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   0.00
+ 333333  $   0.00
+
+Transaction Requested: Deposit
+Account Number: 222222
+Old Balance: $0.00
+Amount to Deposit: $12.55
+New Balance: $12.55
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $  12.55
+ 333333  $   0.00
+
+Transaction Requested: Deposit
+Account Number: 333333
+Old Balance: $0.00
+Amount to Deposit: $32.78
+New Balance: $32.78
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $  12.55
+ 333333  $  32.78
+
+Transaction Requested: Withdrawal
+Account Number: 222222
+Old Balance: $12.55
+Amount to Withdrawal: $10.25
+New Balance: $2.30
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Transaction Requested: Balance Inquiry
+Account Number: 111111
+Current Balance: $75.55
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Transaction Requested: Delete Account
+Error: Account is not empty. 
+Remove funds from account before deleting.
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $ 100.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Transaction Requested: Withdrawal
+Account Number: 100001
+Old Balance: $100.00
+Amount to Withdrawal: $100.0
+New Balance: $0.00
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100001  $   0.00
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Transaction Requested: Delete Account
+Deleted account number: 100001
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Transaction Requested: Delete Account
+Error: Account is not empty. 
+Remove funds from account before deleting.
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Transaction Requested: Delete Account
+Error: Account entered does not exist!
+
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
+Error: p is an invalid selection -  try again
+
+Final Database of Accounts:
+
+		Database of Bank Accounts
+
+Account   Balance
+ 100002  $2000.00
+ 100003  $2990.00
+ 100004  $4000.00
+ 100005  $5000.00
+ 100006  $6199.00
+ 100007  $7000.00
+ 100008  $8000.00
+ 100009  $9001.00
+ 100000  $1000.00
+ 111111  $  75.55
+ 222222  $   2.30
+ 333333  $  32.78
+
